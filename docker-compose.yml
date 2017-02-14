@@ -1,0 +1,9 @@
+version: '2'
+services:
+  dcae-controller:
+    image: DOCKER-REGISTRY/dcae-controller:DCAE-VERSION
+    ports:
+      - "9998:9998"
+    volumes:
+      - /opt/app/dcae-controller:/opt/app/dcae-controller
+
