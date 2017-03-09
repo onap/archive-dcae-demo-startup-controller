@@ -1,7 +1,7 @@
 version: '2'
 services:
   dcae-controller:
-    image: DOCKER-REGISTRY/dcae-controller:DCAE-VERSION
+    image: DOCKER-REGISTRY/openecomp/dcae-controller:DCAE-VERSION
     ports:
       - "9998:9998"
     volumes:
